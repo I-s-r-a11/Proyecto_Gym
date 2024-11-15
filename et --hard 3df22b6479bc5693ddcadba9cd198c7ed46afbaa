@@ -1,0 +1,45 @@
+[33mcommit 4e9267efb23aed493cdcf8b086d8177a49d6bbdc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Evy <evelyncastroel711360@gmail.com>
+Date:   Fri Nov 15 14:23:56 2024 -0600
+
+    Revert "Inicio, Registro o registro con correo"
+    
+    This reverts commit 3df22b6479bc5693ddcadba9cd198c7ed46afbaa.
+
+[33mcommit 3df22b6479bc5693ddcadba9cd198c7ed46afbaa[m
+Author: Evy <evelyncastroel711360@gmail.com>
+Date:   Fri Nov 15 13:40:07 2024 -0600
+
+    Inicio, Registro o registro con correo
+
+[33mcommit e4ef572114f87337c687188a15185ec25ff4bb95[m
+Author: I-s-r-a11 <alv241924@uvg.edu.gt>
+Date:   Thu Nov 14 15:23:47 2024 -0600
+
+    creacion de imagenes
+
+[33mcommit d147b6c8d453e02241a8a58aa1bffe80408e7e98[m
+Author: I-s-r-a11 <alv241924@uvg.edu.gt>
+Date:   Thu Nov 14 11:04:44 2024 -0600
+
+    Compilado
+
+[33mcommit 0f81ceb932e4ba278a51a725919765b4c0225a8e[m
+Author: I-s-r-a11 <alv241924@uvg.edu.gt>
+Date:   Thu Nov 14 11:00:32 2024 -0600
+
+    Creacion de otra ventana
+
+[33mcommit fce48b5f7d7b406820ba7d8f5d227b8d213c1d3d[m
+Author: I-s-r-a11 <alv241924@uvg.edu.gt>
+Date:   Thu Nov 14 10:29:59 2024 -0600
+
+    Inicio de proyecto
+    
+    Trabajen
+
+[33mcommit 1e37aae86b021a113b49f266b7f41bd089d8decd[m
+Author: I-s-r-a11 <alv241924@uvg.edu.gt>
+Date:   Thu Nov 14 10:24:49 2024 -0600
+
+    Initial commit
