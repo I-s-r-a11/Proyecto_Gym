@@ -19,6 +19,7 @@ public class ProyectoUVG {
         Vista1 vist = new Vista1 ();
         vist.setVisible(true);
         
+        
        // Vista2 vista =  new Vista2 ();
         //vista.setVisible(false);
         
