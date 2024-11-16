@@ -44,6 +44,7 @@ public class Vista1 extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setText("FITNESS&HOUSE");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/yamecanse/gym3.jpg"))); // NOI18N
