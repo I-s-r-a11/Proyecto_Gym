@@ -102,7 +102,7 @@ public class VistaE extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/yamecanse/gym3.jpg"))); // NOI18N
         Registro.add(jLabel3);
-        jLabel3.setBounds(1150, 0, 200, 200);
+        jLabel3.setBounds(1150, 0, 0, 0);
 
         atras.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         atras.setText("Atras");
