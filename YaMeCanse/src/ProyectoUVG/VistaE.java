@@ -42,7 +42,6 @@ public class VistaE extends javax.swing.JFrame {
         Registrarse = new javax.swing.JButton();
         RegistroG = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         atras = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -100,10 +99,13 @@ public class VistaE extends javax.swing.JFrame {
         Registro.add(jLabel1);
         jLabel1.setBounds(560, 20, 240, 110);
 
+<<<<<<< HEAD
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/yamecanse/gym3.jpg"))); // NOI18N
         Registro.add(jLabel3);
         jLabel3.setBounds(1150, 0, 0, 0);
 
+=======
+>>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
         atras.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         atras.setText("Atras");
         atras.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -165,8 +167,7 @@ public class VistaE extends javax.swing.JFrame {
     }//GEN-LAST:event_atrasActionPerformed
 
     private void atrasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_atrasMouseClicked
-        Vista1 vs = new Vista1();
-        vs.setVisible(true);
+       
 
         this.dispose();
 // TODO add your handling code here:
@@ -214,6 +215,5 @@ public class VistaE extends javax.swing.JFrame {
     private javax.swing.JButton RegistroG;
     private javax.swing.JButton atras;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }
