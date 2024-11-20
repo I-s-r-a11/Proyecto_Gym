@@ -15,6 +15,9 @@ public class Vista6 extends javax.swing.JFrame {
      */
     public Vista6() {
         initComponents();
+        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -110,7 +113,7 @@ public class Vista6 extends javax.swing.JFrame {
 
         jButton8.setBackground(new java.awt.Color(0, 204, 255));
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton8.setText("Primiun");
+        jButton8.setText("Primium");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -189,7 +192,7 @@ public class Vista6 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

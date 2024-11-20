@@ -15,6 +15,8 @@ public class Vista9 extends javax.swing.JFrame {
      */
     public Vista9() {
         initComponents();
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
         
         cont5.setVisible(false);
         cont6.setVisible(false);
