@@ -17,9 +17,8 @@ public class usuario extends javax.swing.JFrame {
      */
     public usuario() {
         initComponents();
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
-        
-        this.dispose();
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -30,8 +29,6 @@ public class usuario extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
-	System.out.println("");
 
         Registro = new javax.swing.JPanel();
         RegistroG1 = new javax.swing.JButton();
@@ -69,12 +66,12 @@ public class usuario extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG1);
-        RegistroG1.setBounds(550, 590, 244, 42);
+        RegistroG1.setBounds(270, 480, 244, 42);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("FITNESS&HOUSE");
         Registro.add(jLabel1);
-        jLabel1.setBounds(640, 20, 240, 110);
+        jLabel1.setBounds(270, 10, 200, 40);
 
         Registro1.setBackground(new java.awt.Color(0, 102, 102));
         Registro1.setLayout(null);
@@ -104,7 +101,7 @@ public class usuario extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel2");
         Registro1.add(jLabel4);
-        jLabel4.setBounds(360, 350, 37, 16);
+        jLabel4.setBounds(360, 350, 38, 16);
 
         Registro.add(Registro1);
         Registro1.setBounds(0, 0, 0, 0);
@@ -112,21 +109,21 @@ public class usuario extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel5.setText("Contraseña");
         Registro.add(jLabel5);
-        jLabel5.setBounds(470, 380, 90, 16);
+        jLabel5.setBounds(260, 310, 180, 16);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel6.setText("Usuario");
         Registro.add(jLabel6);
-        jLabel6.setBounds(480, 230, 60, 25);
+        jLabel6.setBounds(280, 140, 130, 25);
 
         jButton1.setBackground(new java.awt.Color(0, 102, 102));
         jButton1.setText("Olvido su contraseña");
         Registro.add(jButton1);
-        jButton1.setBounds(580, 550, 170, 23);
+        jButton1.setBounds(290, 430, 170, 23);
         Registro.add(jTextField1);
-        jTextField1.setBounds(540, 270, 250, 40);
+        jTextField1.setBounds(260, 200, 250, 40);
         Registro.add(jPasswordField1);
-        jPasswordField1.setBounds(550, 410, 250, 40);
+        jPasswordField1.setBounds(260, 360, 250, 40);
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton2.setText("Atras");
@@ -146,11 +143,17 @@ public class usuario extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 1356, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 540, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registro, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 698, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(72, Short.MAX_VALUE)
+                .addComponent(Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 620, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
