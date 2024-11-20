@@ -16,6 +16,9 @@ public class Vista4 extends javax.swing.JFrame {
     public Vista4() {
         initComponents();
         
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
+        
         cont1.setVisible(false);
         cont2.setVisible(false);
     }

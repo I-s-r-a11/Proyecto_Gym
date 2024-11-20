@@ -15,6 +15,8 @@ public class Vista11 extends javax.swing.JFrame {
      */
     public Vista11() {
         initComponents();
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
         
         cont9.setVisible(false);
         cont10.setVisible(false);

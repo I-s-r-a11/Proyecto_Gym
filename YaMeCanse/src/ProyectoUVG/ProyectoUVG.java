@@ -24,29 +24,6 @@ public class ProyectoUVG {
 
 
         
-        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-                System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-                System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-                System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-        
-                System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-                System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");
-
-        
-        
         
         
         

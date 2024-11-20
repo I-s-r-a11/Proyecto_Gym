@@ -15,6 +15,8 @@ public class Vista10 extends javax.swing.JFrame {
      */
     public Vista10() {
         initComponents();
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
         
         cont7.setVisible(false);
         cont8.setVisible(false);

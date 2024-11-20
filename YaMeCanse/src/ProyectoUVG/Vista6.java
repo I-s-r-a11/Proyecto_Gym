@@ -15,6 +15,9 @@ public class Vista6 extends javax.swing.JFrame {
      */
     public Vista6() {
         initComponents();
+        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**

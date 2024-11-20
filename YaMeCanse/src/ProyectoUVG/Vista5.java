@@ -15,6 +15,9 @@ public class Vista5 extends javax.swing.JFrame {
      */
     public Vista5() {
         initComponents();
+        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**

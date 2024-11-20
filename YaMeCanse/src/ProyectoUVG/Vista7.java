@@ -15,6 +15,8 @@ public class Vista7 extends javax.swing.JFrame {
      */
     public Vista7() {
         initComponents();
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
         
         cont3.setVisible(false);
         
