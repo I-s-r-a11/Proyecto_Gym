@@ -4,6 +4,8 @@
  */
 package ProyectoUVG;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Lenovo
@@ -15,6 +17,7 @@ public class Vista1 extends javax.swing.JFrame {
      */
     public Vista1() {
         initComponents();
+         
     }
 
     /**
@@ -27,23 +30,44 @@ public class Vista1 extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        Aceptar = new javax.swing.JButton();
+        sesion = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Aceptar.setText("Aceptar");
-        Aceptar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AceptarActionPerformed(evt);
+        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
+
+        sesion.setBackground(new java.awt.Color(51, 255, 51));
+        sesion.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        sesion.setText("Ingresar");
+        sesion.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                sesionMouseClicked(evt);
             }
         });
+        sesion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sesionActionPerformed(evt);
+            }
+        });
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel1.setText("FITNESS&HOUSE");
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym3.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(102, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(190, 190, 190))
             .addGroup(jPanel1Layout.createSequentialGroup()
-<<<<<<< HEAD
 <<<<<<< HEAD
                 .addGap(140, 140, 140)
                 .addComponent(jLabel2)
@@ -69,16 +93,10 @@ public class Vista1 extends javax.swing.JFrame {
 =======
 >>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
 >>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
-=======
-                .addGap(336, 336, 336)
-                .addComponent(Aceptar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(437, Short.MAX_VALUE))
->>>>>>> 961cfe3a25448a3c0a02ab5bdcbe5c05b3c490d7
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGap(24, 24, 24)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
@@ -98,37 +116,34 @@ public class Vista1 extends javax.swing.JFrame {
                 .addComponent(sesion, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(16, 16, 16))
 >>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
-=======
-                .addContainerGap(325, Short.MAX_VALUE)
-                .addComponent(Aceptar)
-                .addGap(64, 64, 64))
->>>>>>> 961cfe3a25448a3c0a02ab5bdcbe5c05b3c490d7
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void AceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AceptarActionPerformed
-        // TODO add your handling code here:
-        
-        VistaE vis = new VistaE ();
-        vis.setVisible(true);
-        
+    private void sesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sesionActionPerformed
+        // TODO add your ha0ndling code here:
+         
+            VistaE vistasesion = new   VistaE();
+        vistasesion.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_AceptarActionPerformed
+    }//GEN-LAST:event_sesionActionPerformed
+
+    private void sesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sesionMouseClicked
+        
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sesionMouseClicked
 
     /**
      * @param args the command line arguments
@@ -166,7 +181,9 @@ public class Vista1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Aceptar;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton sesion;
     // End of variables declaration//GEN-END:variables
 }
