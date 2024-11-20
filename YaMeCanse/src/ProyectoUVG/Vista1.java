@@ -17,7 +17,9 @@ public class Vista1 extends javax.swing.JFrame {
      */
     public Vista1() {
         initComponents();
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        
+       setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -55,28 +57,26 @@ public class Vista1 extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG);
-        RegistroG.setBounds(580, 570, 244, 42);
+        RegistroG.setBounds(170, 440, 130, 42);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setText("FITNESS&HOUSE");
         Registro.add(jLabel1);
-        jLabel1.setBounds(640, 20, 240, 110);
+        jLabel1.setBounds(150, 30, 240, 40);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym3.jpg"))); // NOI18N
         Registro.add(jLabel2);
-        jLabel2.setBounds(600, 170, 200, 210);
+        jLabel2.setBounds(140, 160, 200, 210);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 1356, Short.MAX_VALUE)
+            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 698, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
 
         pack();
@@ -130,7 +130,6 @@ public class Vista1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Registro;
     private javax.swing.JButton RegistroG;
-    private javax.swing.JButton RegistroG1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
