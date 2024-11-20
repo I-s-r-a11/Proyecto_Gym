@@ -59,7 +59,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG1);
-        RegistroG1.setBounds(220, 420, 180, 42);
+        RegistroG1.setBounds(180, 300, 190, 30);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("FITNESS&HOUSE");
@@ -82,7 +82,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG2);
-        RegistroG2.setBounds(200, 340, 150, 42);
+        RegistroG2.setBounds(200, 220, 150, 33);
 
         RegistroG3.setBackground(new java.awt.Color(51, 255, 51));
         RegistroG3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -100,7 +100,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG3);
-        RegistroG3.setBounds(190, 510, 244, 42);
+        RegistroG3.setBounds(150, 380, 250, 30);
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton1.setText("Atras");
@@ -110,7 +110,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(jButton1);
-        jButton1.setBounds(380, 20, 90, 32);
+        jButton1.setBounds(470, 10, 90, 32);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym4.jpg"))); // NOI18N
         Registro.add(jLabel2);
@@ -122,11 +122,11 @@ public class Ingreso extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 568, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 9, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
+            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
 
         Registro.getAccessibleContext().setAccessibleName("");
@@ -141,6 +141,7 @@ public class Ingreso extends javax.swing.JFrame {
     private void RegistroG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG1ActionPerformed
         usuario user = new usuario();
         user.setVisible(true);
+         this.dispose();
     }//GEN-LAST:event_RegistroG1ActionPerformed
 
     private void RegistroG2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistroG2MouseClicked
@@ -150,6 +151,7 @@ public class Ingreso extends javax.swing.JFrame {
     private void RegistroG2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG2ActionPerformed
             usuario user = new usuario();
         user.setVisible(true);
+         this.dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_RegistroG2ActionPerformed
 
@@ -160,6 +162,7 @@ public class Ingreso extends javax.swing.JFrame {
     private void RegistroG3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG3ActionPerformed
                 usuario user = new usuario();
         user.setVisible(true);
+         this.dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_RegistroG3ActionPerformed
 

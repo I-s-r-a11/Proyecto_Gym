@@ -89,6 +89,7 @@ public class Vista1 extends javax.swing.JFrame {
     private void RegistroGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroGActionPerformed
             Ingreso ing = new Ingreso();
             ing.setVisible(true);
+             this.dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_RegistroGActionPerformed
 
