@@ -37,36 +37,36 @@ public class VistaE extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Registro = new javax.swing.JPanel();
-        Registrarse = new javax.swing.JButton();
+        registro = new javax.swing.JPanel();
+        Inicio = new javax.swing.JButton();
         RegistroG = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         atras = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        Registrarse1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1000, 100));
 
-        Registro.setBackground(new java.awt.Color(0, 102, 102));
-        Registro.setLayout(null);
+        registro.setBackground(new java.awt.Color(0, 102, 102));
+        registro.setLayout(null);
 
-        Registrarse.setBackground(new java.awt.Color(51, 255, 51));
-        Registrarse.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        Registrarse.setText("Registrarse");
-        Registrarse.setMaximumSize(new java.awt.Dimension(103, 33));
-        Registrarse.setPreferredSize(new java.awt.Dimension(103, 33));
-        Registrarse.addMouseListener(new java.awt.event.MouseAdapter() {
+        Inicio.setBackground(new java.awt.Color(51, 255, 51));
+        Inicio.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        Inicio.setText("Iniciar sesion");
+        Inicio.setMaximumSize(new java.awt.Dimension(103, 33));
+        Inicio.setPreferredSize(new java.awt.Dimension(103, 33));
+        Inicio.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                RegistrarseMouseClicked(evt);
+                InicioMouseClicked(evt);
             }
         });
-        Registrarse.addActionListener(new java.awt.event.ActionListener() {
+        Inicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RegistrarseActionPerformed(evt);
+                InicioActionPerformed(evt);
             }
         });
-        Registro.add(Registrarse);
-        Registrarse.setBounds(590, 400, 163, 42);
+        registro.add(Inicio);
+        Inicio.setBounds(590, 320, 170, 42);
 
         RegistroG.setBackground(new java.awt.Color(51, 255, 51));
         RegistroG.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -78,12 +78,12 @@ public class VistaE extends javax.swing.JFrame {
                 RegistroGMouseClicked(evt);
             }
         });
-        Registro.add(RegistroG);
+        registro.add(RegistroG);
         RegistroG.setBounds(560, 480, 244, 42);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("FITNESS&HOUSE");
-        Registro.add(jLabel1);
+        registro.add(jLabel1);
         jLabel1.setBounds(560, 20, 240, 110);
 
         atras.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -98,50 +98,56 @@ public class VistaE extends javax.swing.JFrame {
                 atrasActionPerformed(evt);
             }
         });
-        Registro.add(atras);
+        registro.add(atras);
         atras.setBounds(10, 10, 140, 32);
 
-        jButton1.setText("Iniciar Sesion");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+        Registrarse1.setBackground(new java.awt.Color(51, 255, 51));
+        Registrarse1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        Registrarse1.setText("Registrarse");
+        Registrarse1.setMaximumSize(new java.awt.Dimension(103, 33));
+        Registrarse1.setPreferredSize(new java.awt.Dimension(103, 33));
+        Registrarse1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Registrarse1MouseClicked(evt);
             }
         });
-        Registro.add(jButton1);
-        jButton1.setBounds(580, 310, 160, 23);
+        Registrarse1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Registrarse1ActionPerformed(evt);
+            }
+        });
+        registro.add(Registrarse1);
+        Registrarse1.setBounds(590, 400, 170, 42);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(Registro, javax.swing.GroupLayout.PREFERRED_SIZE, 1344, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(registro, javax.swing.GroupLayout.PREFERRED_SIZE, 1374, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 12, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registro, javax.swing.GroupLayout.DEFAULT_SIZE, 550, Short.MAX_VALUE)
+            .addComponent(registro, javax.swing.GroupLayout.DEFAULT_SIZE, 767, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void RegistrarseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistrarseMouseClicked
-       userPassword IniciarU = new userPassword();
-        IniciarU.setVisible(true);
+    private void InicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_InicioMouseClicked
+       usuario registrar = new usuario();
+       registrar.setVisible(true);
         // TODO add your handling code here:
-    }//GEN-LAST:event_RegistrarseMouseClicked
+    }//GEN-LAST:event_InicioMouseClicked
 
     private void RegistroGMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistroGMouseClicked
-        userPassword IniciarU = new userPassword();
-        IniciarU.setVisible(true);
-// TODO add your handling code here:
+        
     }//GEN-LAST:event_RegistroGMouseClicked
 
     private void atrasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_atrasActionPerformed
-        // TODO add your handling code here:
-        
+     Vista1 inicio = new Vista1();        // TODO add your handling code here:
+        inicio.setVisible(true);
     }//GEN-LAST:event_atrasActionPerformed
 
     private void atrasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_atrasMouseClicked
@@ -151,25 +157,19 @@ public class VistaE extends javax.swing.JFrame {
 // TODO add your handling code here:
     }//GEN-LAST:event_atrasMouseClicked
 
-    private void RegistrarseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistrarseActionPerformed
-        
+    private void InicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InicioActionPerformed
+    
 // TODO add your handling code here:
+  
+    }//GEN-LAST:event_InicioActionPerformed
 
-    FitHouse house1=new FitHouse();
-    house1.setVisible(true);
-    
-    this.dispose();
-    
-
-    }//GEN-LAST:event_RegistrarseActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void Registrarse1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Registrarse1MouseClicked
         // TODO add your handling code here:
-        
-        userPassword pass1 =new userPassword();
-        pass1.setVisible(true);
-        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_Registrarse1MouseClicked
+
+    private void Registrarse1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Registrarse1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Registrarse1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -207,11 +207,11 @@ public class VistaE extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Registrarse;
-    private javax.swing.JPanel Registro;
+    private javax.swing.JButton Inicio;
+    private javax.swing.JButton Registrarse1;
     private javax.swing.JButton RegistroG;
     private javax.swing.JButton atras;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel registro;
     // End of variables declaration//GEN-END:variables
 }
