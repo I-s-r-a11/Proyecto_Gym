@@ -19,8 +19,9 @@ public class Vista2 extends javax.swing.JFrame {
     public Vista2() {
         
         initComponents();
-        
-        
+         setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
+           
     }
 
     public void setName(String name){
@@ -207,7 +208,7 @@ public class Vista2 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-            Vista1 vent = new Vista1();
+            Vista2 vent = new Vista2();
         vent.setVisible(true);
         
         this.dispose();
@@ -216,7 +217,7 @@ public class Vista2 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-        Vista5 vento = new Vista5 ();
+        Ingreso vento = new Ingreso ();
         vento.setVisible(true);
         
           this.dispose();

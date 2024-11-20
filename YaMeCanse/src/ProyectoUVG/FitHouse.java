@@ -191,7 +191,7 @@ public class FitHouse extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-       Ingreso atras = new Ingreso();
+       Vista2 atras = new Vista2();
        atras.setVisible(true);
          
          this.dispose();
