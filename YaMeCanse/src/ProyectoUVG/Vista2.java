@@ -90,10 +90,13 @@ public class Vista2 extends javax.swing.JFrame {
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym4.jpg"))); // NOI18N
 
+        jComboBox1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "más" }));
 
+        jComboBox2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "156", "157", "158", "159", "160", "161", "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172", "173", "174", "175", "176", "177", "178", "179", "180" }));
 
+        jComboBox3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24" }));
 
         jButton2.setBackground(new java.awt.Color(51, 255, 51));
@@ -105,6 +108,7 @@ public class Vista2 extends javax.swing.JFrame {
             }
         });
 
+        jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -208,7 +212,7 @@ public class Vista2 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-            Vista2 vent = new Vista2();
+            FitHouse vent = new FitHouse();
         vent.setVisible(true);
         
         this.dispose();
