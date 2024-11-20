@@ -67,14 +67,20 @@
 >>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
                   </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <EmptySpace pref="124" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
                   <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
+=======
 >>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
               </Group>
           </Group>

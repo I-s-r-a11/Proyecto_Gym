@@ -68,9 +68,17 @@ public class Vista1 extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(190, 190, 190))
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(140, 140, 140)
                 .addComponent(jLabel2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+<<<<<<< HEAD
+                .addGap(140, 140, 140)
+                .addComponent(jLabel2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+>>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(179, 179, 179)
@@ -80,7 +88,11 @@ public class Vista1 extends javax.swing.JFrame {
                         .addComponent(jLabel2)))
                 .addContainerGap(124, Short.MAX_VALUE))
                 .addContainerGap(126, Short.MAX_VALUE))
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
+>>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -89,12 +101,21 @@ public class Vista1 extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
                 .addComponent(jLabel2)
+<<<<<<< HEAD
                 .addGap(64, 64, 64)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(60, 60, 60))
+=======
+<<<<<<< HEAD
+                .addGap(64, 64, 64)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(60, 60, 60))
+=======
+>>>>>>> c29edeea68fe8172693cb274db2b2a56d18db2a2
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
                 .addComponent(sesion, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(16, 16, 16))
+>>>>>>> 87696fdcc5c513f09ddf830f96060eff1c7ca4ba
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
