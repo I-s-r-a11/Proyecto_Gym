@@ -119,6 +119,11 @@ public class usuario extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(0, 102, 102));
         jButton1.setText("Olvido su contraseña");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         Registro.add(jButton1);
         jButton1.setBounds(180, 380, 170, 23);
         Registro.add(jTextField1);
@@ -202,6 +207,14 @@ public class usuario extends javax.swing.JFrame {
 
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+     Vista12 premium = new Vista12();
+     premium.setVisible(true);
+     this.dispose();
+    
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
      
     /**
      * @param args the command line arguments
