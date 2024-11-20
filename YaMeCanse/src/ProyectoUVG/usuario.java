@@ -18,6 +18,8 @@ public class usuario extends javax.swing.JFrame {
     public usuario() {
         initComponents();
         setExtendedState(JFrame.MAXIMIZED_BOTH);
+        
+        this.dispose();
     }
 
     /**
@@ -161,6 +163,11 @@ public class usuario extends javax.swing.JFrame {
     private void RegistroG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG1ActionPerformed
         
         // TODO add your handling code here:
+        
+        Vista5 vis2 = new Vista5 ();
+        vis2.setVisible(true);
+        
+        this.dispose();
     }//GEN-LAST:event_RegistroG1ActionPerformed
 
     private void RegistroG2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistroG2MouseClicked
@@ -175,6 +182,7 @@ public class usuario extends javax.swing.JFrame {
         // TODO add your handling code here:
       Ingreso atras = new Ingreso();
       atras.setVisible(true);
+      
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 

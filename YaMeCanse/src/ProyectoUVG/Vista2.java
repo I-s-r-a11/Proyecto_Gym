@@ -4,6 +4,8 @@
  */
 package ProyectoUVG;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Lenovo
