@@ -15,6 +15,9 @@ public class Vista12 extends javax.swing.JFrame {
      */
     public Vista12() {
         initComponents();
+        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**

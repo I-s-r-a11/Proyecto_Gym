@@ -15,7 +15,8 @@ public class Vista8 extends javax.swing.JFrame {
      */
     public Vista8() {
         initComponents();
-        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
         cont4.setVisible(false);
     }
 

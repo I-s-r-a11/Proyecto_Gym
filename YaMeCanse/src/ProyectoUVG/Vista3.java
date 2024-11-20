@@ -15,6 +15,9 @@ public class Vista3 extends javax.swing.JFrame {
      */
     public Vista3() {
         initComponents();
+        
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
     }
 
     /**
