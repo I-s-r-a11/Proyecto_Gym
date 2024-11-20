@@ -202,7 +202,7 @@
         <Component class="javax.swing.JPasswordField" name="jPasswordField1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="140" y="300" width="240" height="30"/>
+              <AbsoluteConstraints x="150" y="310" width="230" height="30"/>
             </Constraint>
           </Constraints>
         </Component>

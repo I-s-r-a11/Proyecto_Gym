@@ -129,7 +129,7 @@ public class usuario extends javax.swing.JFrame {
         Registro.add(jTextField1);
         jTextField1.setBounds(150, 200, 230, 30);
         Registro.add(jPasswordField1);
-        jPasswordField1.setBounds(140, 300, 240, 30);
+        jPasswordField1.setBounds(150, 310, 230, 30);
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton2.setText("Atras");
@@ -201,9 +201,8 @@ public class usuario extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-
-        Vista1 atras = new Vista1();
-        atras.setVisible(true);
+     Ingreso atras = new Ingreso();
+     atras.setVisible(true);
 
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed

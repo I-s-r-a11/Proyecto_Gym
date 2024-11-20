@@ -111,9 +111,10 @@ public class Vista6 extends javax.swing.JFrame {
         jButton7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton7.setText("Abdomen");
 
-        jButton8.setBackground(new java.awt.Color(0, 204, 255));
+        jButton8.setBackground(new java.awt.Color(0, 51, 51));
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton8.setText("Primium");
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jButton8.setText("Premium");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);

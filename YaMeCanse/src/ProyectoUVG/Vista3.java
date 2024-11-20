@@ -106,9 +106,10 @@ public class Vista3 extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym4.jpg"))); // NOI18N
 
-        jButton8.setBackground(new java.awt.Color(0, 204, 255));
+        jButton8.setBackground(new java.awt.Color(0, 51, 51));
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton8.setText("Primium");
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jButton8.setText("Premium");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -238,10 +239,10 @@ public class Vista3 extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
-        
+
         Vista12 vis12 = new Vista12 ();
         vis12.setVisible(true);
-        
+
         this.dispose();
     }//GEN-LAST:event_jButton8ActionPerformed
 

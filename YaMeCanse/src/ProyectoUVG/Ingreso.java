@@ -32,11 +32,11 @@ public class Ingreso extends javax.swing.JFrame {
 
         Registro = new javax.swing.JPanel();
         RegistroG1 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         RegistroG2 = new javax.swing.JButton();
         RegistroG3 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -59,12 +59,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG1);
-        RegistroG1.setBounds(180, 300, 190, 30);
-
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setText("FITNESS&HOUSE");
-        Registro.add(jLabel1);
-        jLabel1.setBounds(170, 10, 160, 30);
+        RegistroG1.setBounds(190, 300, 170, 50);
 
         RegistroG2.setBackground(new java.awt.Color(51, 255, 51));
         RegistroG2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -82,7 +77,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG2);
-        RegistroG2.setBounds(200, 220, 150, 33);
+        RegistroG2.setBounds(200, 220, 150, 50);
 
         RegistroG3.setBackground(new java.awt.Color(51, 255, 51));
         RegistroG3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -100,7 +95,7 @@ public class Ingreso extends javax.swing.JFrame {
             }
         });
         Registro.add(RegistroG3);
-        RegistroG3.setBounds(150, 380, 250, 30);
+        RegistroG3.setBounds(160, 380, 230, 50);
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton1.setText("Atras");
@@ -114,7 +109,12 @@ public class Ingreso extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProyectoUVG/gym4.jpg"))); // NOI18N
         Registro.add(jLabel2);
-        jLabel2.setBounds(0, -50, 200, 210);
+        jLabel2.setBounds(0, 0, 110, 100);
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel1.setText("Fitness&House");
+        Registro.add(jLabel1);
+        jLabel1.setBounds(190, 30, 170, 32);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -139,8 +139,8 @@ public class Ingreso extends javax.swing.JFrame {
     }//GEN-LAST:event_RegistroG1MouseClicked
 
     private void RegistroG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG1ActionPerformed
-        usuario user = new usuario();
-        user.setVisible(true);
+        FitHouse registro = new FitHouse();
+        registro.setVisible(true);
          this.dispose();
     }//GEN-LAST:event_RegistroG1ActionPerformed
 
