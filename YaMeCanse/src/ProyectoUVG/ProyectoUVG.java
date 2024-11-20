@@ -18,6 +18,7 @@ public class ProyectoUVG {
         
         Vista1 vist = new Vista1 ();
         vist.setVisible(true);
+        System.out.println("Hola, estamos en la rama desarrollo");
         
        // Vista2 vista =  new Vista2 ();
         //vista.setVisible(false);
