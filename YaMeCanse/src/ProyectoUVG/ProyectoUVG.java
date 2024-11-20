@@ -21,15 +21,31 @@ public class ProyectoUVG {
         System.out.println("Hola, estamos en la rama desarrollo");
         System.out.println("Mensaje 2");
         System.out.println("Mensaje 2");
+
+
+        
         System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
-        System.out.println("Mensaje 2");        System.out.println("Mensaje 2");
         System.out.println("Mensaje 2");
 
+                System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+
+                System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+
+                System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+
+        
+                System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+
+                System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+        System.out.println("Mensaje 2");
+
+        
         
         
         
