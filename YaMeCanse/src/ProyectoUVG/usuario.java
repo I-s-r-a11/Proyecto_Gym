@@ -40,7 +40,7 @@ public class usuario extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
+        USUARIO2 = new javax.swing.JTextField();
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton2 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
@@ -102,7 +102,7 @@ public class usuario extends javax.swing.JFrame {
 
         jLabel4.setText("jLabel2");
         Registro1.add(jLabel4);
-        jLabel4.setBounds(360, 350, 37, 16);
+        jLabel4.setBounds(360, 350, 38, 16);
 
         Registro.add(Registro1);
         Registro1.setBounds(0, 0, 0, 0);
@@ -126,8 +126,8 @@ public class usuario extends javax.swing.JFrame {
         });
         Registro.add(jButton1);
         jButton1.setBounds(180, 380, 170, 23);
-        Registro.add(jTextField1);
-        jTextField1.setBounds(150, 200, 230, 30);
+        Registro.add(USUARIO2);
+        USUARIO2.setBounds(150, 200, 230, 30);
         Registro.add(jPasswordField1);
         jPasswordField1.setBounds(150, 310, 230, 30);
 
@@ -174,10 +174,15 @@ public class usuario extends javax.swing.JFrame {
     }//GEN-LAST:event_RegistroG1MouseClicked
 
     private void RegistroG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG1ActionPerformed
-        
+                                               
+    // Capturar el texto ingresado en el campo de texto jTextField1
+    String textoUsuario = USUARIO2.getText();
+
+    // Crear una nueva instancia de Vista5 pasando el texto capturado
+    Vista5 vis2 = new Vista5(textoUsuario);
         // TODO add your handling code here:
         
-        Vista5 vis2 = new Vista5 ();
+       
         vis2.setVisible(true);
         
         this.dispose();
@@ -255,6 +260,7 @@ public class usuario extends javax.swing.JFrame {
     private javax.swing.JPanel Registro1;
     private javax.swing.JButton RegistroG1;
     private javax.swing.JButton RegistroG2;
+    private javax.swing.JTextField USUARIO2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -265,6 +271,5 @@ public class usuario extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
