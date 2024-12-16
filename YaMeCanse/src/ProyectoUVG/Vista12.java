@@ -192,8 +192,8 @@ public class Vista12 extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-        Vista6 vis6 = new Vista6 ();
-        vis6.setVisible(true);
+        Vista5 vis5 = new Vista5 ();
+        vis5.setVisible(true);
         
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed

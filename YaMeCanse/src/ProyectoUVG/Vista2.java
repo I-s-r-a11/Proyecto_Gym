@@ -21,11 +21,7 @@ public class Vista2 extends javax.swing.JFrame {
         
     }
 
-    public void setName(String name){
-    this.name = name;
-    System.out.println(name);
-    this.Lname.setText(name);
-    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -214,9 +210,21 @@ public class Vista2 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
+<<<<<<< Updated upstream
         Vista5 vento = new Vista5 ();
         vento.setVisible(true);
         
+=======
+   
+
+        
+        Ingreso vento = new Ingreso ();
+        vento.setVisible(true);
+        
+        
+        
+
+>>>>>>> Stashed changes
           this.dispose();
         
     }//GEN-LAST:event_jButton2ActionPerformed

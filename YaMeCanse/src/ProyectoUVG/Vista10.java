@@ -15,6 +15,18 @@ public class Vista10 extends javax.swing.JFrame {
      */
     public Vista10() {
         initComponents();
+<<<<<<< Updated upstream
+=======
+        setResizable(false); // Desactiva el redimensionamiento
+        setLocationRelativeTo(null);
+        
+        String nombreUsuario = DatosCompartidos.getNombreUsuario();
+        COLOCAR4.setText(nombreUsuario); //se coloca el nombre donde se va
+        //aparecer donde se escribio o donde quieras que quieras que aparesca
+        //se llama al string que creamos en una ventana llamada DatosCompartidos
+        //y con el .setText es donde cambia lo que esta en nombreUsuario
+        
+>>>>>>> Stashed changes
         
         cont7.setVisible(false);
         cont8.setVisible(false);
@@ -36,8 +48,12 @@ public class Vista10 extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
+<<<<<<< Updated upstream
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+=======
+        COLOCAR4 = new javax.swing.JLabel();
+>>>>>>> Stashed changes
         jLabel7 = new javax.swing.JLabel();
         Emp3 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
@@ -68,10 +84,14 @@ public class Vista10 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel4.setText("Bienvenido");
 
+<<<<<<< Updated upstream
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel5.setText("Dia");
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+=======
+        COLOCAR4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+>>>>>>> Stashed changes
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
@@ -113,11 +133,16 @@ public class Vista10 extends javax.swing.JFrame {
                                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< Updated upstream
                         .addGap(137, 137, 137)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(33, 33, 33)
+=======
+                        .addGap(49, 49, 49)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> Stashed changes
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -161,9 +186,21 @@ public class Vista10 extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< Updated upstream
                                 .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(2, 2, 2)))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                                .addGap(23, 23, 23)
+                                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(COLOCAR4, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(14, 14, 14)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+>>>>>>> Stashed changes
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cont7, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cont8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -252,8 +289,11 @@ public class Vista10 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+<<<<<<< Updated upstream
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+=======
+>>>>>>> Stashed changes
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;

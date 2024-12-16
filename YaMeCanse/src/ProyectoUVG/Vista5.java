@@ -188,7 +188,12 @@ public class Vista5 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
+<<<<<<< Updated upstream
         Vista2 vis5 = new Vista2();
+=======
+         DatosCompartidos.setNombreUsuario("");
+        Ingreso vis5 = new Ingreso();
+>>>>>>> Stashed changes
         vis5.setVisible(true);
         
         this.dispose();
@@ -203,6 +208,18 @@ public class Vista5 extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
+<<<<<<< Updated upstream
+=======
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        
+        Vista12 pri = new Vista12 ();
+        pri.setVisible(true);
+        
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+>>>>>>> Stashed changes
     /**
      * @param args the command line arguments
      */
