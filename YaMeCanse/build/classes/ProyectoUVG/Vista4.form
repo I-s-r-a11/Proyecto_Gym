@@ -51,7 +51,7 @@
                   </Group>
                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="COLOCAR6" min="-2" pref="199" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" pref="199" max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" pref="185" max="-2" attributes="0"/>
                       <Component id="jLabel9" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
                   </Group>
@@ -96,7 +96,7 @@
                           <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                              <Component id="COLOCAR6" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -198,7 +198,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="COLOCAR6">
+        <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
