@@ -126,6 +126,12 @@ public class usuario extends javax.swing.JFrame {
         });
         Registro.add(jButton1);
         jButton1.setBounds(180, 380, 170, 23);
+
+        USUARIO2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                USUARIO2ActionPerformed(evt);
+            }
+        });
         Registro.add(USUARIO2);
         USUARIO2.setBounds(150, 200, 230, 30);
         Registro.add(jPasswordField1);
@@ -175,11 +181,12 @@ public class usuario extends javax.swing.JFrame {
 
     private void RegistroG1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegistroG1ActionPerformed
                                                
-    // Capturar el texto ingresado en el campo de texto jTextField1
+    
+// Capturar el texto ingresado en el campo de texto jTextField1
     String textoUsuario = USUARIO2.getText();
 
     // Crear una nueva instancia de Vista5 pasando el texto capturado
-    Vista5 vis2 = new Vista5(textoUsuario);
+    Vista5 vis2 = new Vista5();
         // TODO add your handling code here:
         
        
@@ -219,6 +226,11 @@ public class usuario extends javax.swing.JFrame {
     
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void USUARIO2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_USUARIO2ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_USUARIO2ActionPerformed
      
     /**
      * @param args the command line arguments

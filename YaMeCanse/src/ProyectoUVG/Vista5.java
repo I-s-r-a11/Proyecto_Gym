@@ -238,7 +238,7 @@ public class Vista5 extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         
-        Datoss dato = new Datoss (DatosCompartidos);
+        Datoss dato = new Datoss ();
         dato.setVisible(true);
         
         this.dispose();

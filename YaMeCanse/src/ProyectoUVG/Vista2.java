@@ -221,18 +221,7 @@ public class Vista2 extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         
-   String[] datos = {"Juan", "Pérez", "juan@example.com", "juanp", "1234", "Guatemala", "Masculino", "75", "1.75", "5", "2"};
-Datoss datoss = new Datoss(datos);
-datoss.setVisible(true);
-
-        
-        Ingreso vento = new Ingreso ();
-        vento.setVisible(true);
-        
-        
-        
-datoss.setDatos(datos); // Pasar los datos
-          this.dispose();
+   
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
